@@ -1,104 +1,113 @@
 body {
-	margin: 0;
+  margin: 0;
 }
 
 .header {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	background-repeat: no-repeat;
-	height: 1000px;
-	-webkit-animation: gradient 15s ease infinite;
-	        animation: gradient 15s ease infinite;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  background-repeat: no-repeat;
+  height: 1000px;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
 }
 
 @-webkit-keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 h1 {
-	font-size: 80px;
-	padding-top: 40px;
-	margin: 0;
-	margin-bottom: 25px;
-	text-align: center;
-	font-family: 'Saira Semi Condensed';
+  font-size: 80px;
+  padding-top: 40px;
+  margin: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: "Saira Semi Condensed";
 }
 
 .very-big {
-	display: flex;
-	width: 90%;
-	margin: 0 auto;
-	justify-content: space-between;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .big {
-	width: 55%;
-	height: 600px;
-	background-color: white;
+  width: 55%;
+  height: 600px;
+  background-color: white;
 }
 
 .small {
-	width: 40%;
-	background-color: initial;
-	height: 300px;
+  width: 40%;
+  background-color: initial;
+  height: 300px;
 }
 
 a {
-	font-size: 20px;
-	text-decoration: none;
-	color: black;
-	font-family: 'Saira Semi Condensed';
+  font-size: 35px;
+  text-decoration: none;
+  color: black;
+  font-family: "Saira Semi Condensed";
 }
 
 .small div {
-	text-align: center;
-	margin-top: 30px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 120px;
 }
 
-h6, p {
-	font-family: 'Saira Semi Condensed';
+h6,
+p {
+  font-family: "Saira Semi Condensed";
 }
 
 h6 {
-	font-size: 22px;
-	margin: 5px;
+  font-size: 22px;
+  margin: 5px;
 }
 
 p {
-	font-size: 18px;
-	margin: 0;
+  text-indent: 20px;
+  font-size: 20px;
+  margin: 0;
 }
 
 .big div {
-	padding: 25px;
+  padding: 25px;
+}
+
+.big h6 {
+  text-align: center;
+  font-size: 28px;
 }
 
 @media screen and (max-width: 1000px) {
-	.very-big {
-		flex-direction: column;
-	}
-	.big, .small {
-		width: 80%;
-		margin: auto;
-	}
+  .very-big {
+    flex-direction: column;
+  }
+  .big,
+  .small {
+    width: 80%;
+    margin: auto;
+  }
 }
